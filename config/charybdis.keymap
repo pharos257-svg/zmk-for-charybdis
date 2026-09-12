@@ -117,7 +117,7 @@
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,
+                // 编码器1：上下滚动,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
@@ -129,7 +129,7 @@
 &kp CAPS        &none   &none   &none         &none       &none         &none          &kp PAGE_UP       &kp UP            &kp PAGE_DOWN      &none      &kp PLUS
 &kp LEFT_SHIFT  &none   &none   &none         &bt BT_NXT  &bt BT_CLR    &kp C_AC_HOME  &kp LEFT          &kp DOWN          &kp RIGHT          &kp END    &none
 &kp LCTRL       &none   &none   &none         &none       &none         &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SLASH  &kp EQUAL
-                                &kp LEFT_ALT  &kp SPACE   &trans        &none          &none
+                                &kp LEFT_ALT  &trans      &trans        &none          &none
                                               &mkp MB1    &mkp MB2      &kp ENTER
             >;
         };
